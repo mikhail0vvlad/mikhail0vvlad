@@ -1,0 +1,7 @@
+# Нужно только локально и только при смене фотографии.
+# Ежедневному воркфлоу эти пакеты не требуются.
+pillow
+numpy
+opencv-python-headless
+rembg
+onnxruntime
