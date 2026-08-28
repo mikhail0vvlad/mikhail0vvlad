@@ -1,20 +1,20 @@
 {
  "user": "mikhail0vvlad",
- "generated_at": "2026-08-27T23:01:05Z",
+ "generated_at": "2026-08-28T18:47:38Z",
  "range": {
   "from": "2025-08-24",
-  "to": "2026-08-27"
+  "to": "2026-08-28"
  },
  "stats": {
-  "total": 81,
-  "current_streak": 0,
+  "total": 84,
+  "current_streak": 1,
   "longest_streak": 9,
   "best_day": {
    "date": "2026-04-20",
    "count": 14
   },
-  "active_days": 22,
-  "days_tracked": 369,
+  "active_days": 23,
+  "days_tracked": 370,
   "months": {
    "2025-08": 0,
    "2025-09": 0,
@@ -28,7 +28,7 @@
    "2026-05": 55,
    "2026-06": 4,
    "2026-07": 4,
-   "2026-08": 0
+   "2026-08": 3
   }
  },
  "days": [
@@ -1874,6 +1874,11 @@
   },
   {
    "date": "2026-08-27",
+   "count": 3,
+   "level": 2
+  },
+  {
+   "date": "2026-08-28",
    "count": 0,
    "level": 0
   }
