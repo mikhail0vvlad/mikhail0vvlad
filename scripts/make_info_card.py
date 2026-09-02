@@ -30,21 +30,23 @@ HOST = "moscow"
 
 # (ключ, значение, цвет значения) | None — пустая строка | "---" — разделитель
 ROWS = [
-    ("OS",         "Android · Kotlin",                                  INK),
-    ("Host",       "РТУ МИРЭА — Программная инженерия, IoT & mobile",   INK),
-    ("Kernel",     "Jetpack Compose · MVVM · Clean Architecture",       INK),
+    ("Role",         "Android Developer",                                 INK),
+    ("Education",    "RTU MIREA — Software Engineering",                  INK),
     None,
-    ("Now",        "Android-разработка · Kotlin Multiplatform",         ACCENT),
-    ("Work",       "ГеоТех Инновэйшн — Python-автоматизация docs",      INK),
-    ("Teaching",   "Android-разработка для школьников",                 INK),
+    ("Core",         "Kotlin · Jetpack Compose · Coroutines / Flow",      INK),
+    ("Android",      "Navigation · Room · DataStore · WorkManager",       INK),
+    ("Network",      "Retrofit · OkHttp · REST",                          INK),
+    ("Architecture", "MVVM / MVI · Multi-module · DI",                    INK),
+    ("Engineering",  "Gradle · CI/CD · Unit & UI Testing",                INK),
     None,
-    ("Stack",      "Kotlin · Coroutines/StateFlow · Hilt · Room",       INK),
-    ("",           "Retrofit · WorkManager · Compose",                  INK),
-    ("Also",       "Python · Unity / XR · C++",                         DIM),
+    ("Experience",   "product features end-to-end",                      INK),
+    ("",             "team development · code review · API integration", INK),
     None,
-    ("Pinned",     "powerlifting-assistant — android + server",         MAGENTA),
-    ("Focus",      "продуктовые команды, KMP",                          INK),
-    ("Contact",    "t.me/mikhail0vvlad · vk.com/mikhail0vvlad",         ACCENT),
+    ("Building",     "Android apps with product-focused UX",              ACCENT),
+    ("Pinned",       "powerlifting-assistant — Android + Ktor backend",   MAGENTA),
+    None,
+    ("Also",         "Python · Java · C++",                               DIM),
+    ("Contact",      "t.me/mikhail0vvlad · vk.com/mikhail0vvlad",         ACCENT),
 ]
 
 PALETTE_DIM = ["#484f58", "#f85149", "#3fb950", "#d29922",
@@ -57,7 +59,7 @@ CW = 9.02          # ширина знакоместа при textLength
 LH = 26.0          # межстрочный интервал
 PADX = 26.0
 PADY = 44.0        # место под полоску окна
-KEYW = 9           # ширина колонки ключей
+KEYW = 12          # ширина колонки ключей
 
 STEP = 0.09        # задержка между строками
 DUR = 0.34
@@ -87,7 +89,7 @@ def main():
             continue
         k, v, color = row
         key = k.ljust(KEYW)
-        sep = " : " if k else "   "
+        sep = ": " if k else "  "
         lines.append((key + sep + v,
                       [(key, KEY), (sep, DIM), (v, color)]))
 
