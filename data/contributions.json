@@ -1,20 +1,20 @@
 {
  "user": "mikhail0vvlad",
- "generated_at": "2026-11-07T13:13:00Z",
+ "generated_at": "2026-11-08T13:34:46Z",
  "range": {
-  "from": "2025-11-02",
-  "to": "2026-11-07"
+  "from": "2025-11-09",
+  "to": "2026-11-08"
  },
  "stats": {
-  "total": 371,
-  "current_streak": 72,
-  "longest_streak": 72,
+  "total": 372,
+  "current_streak": 73,
+  "longest_streak": 73,
   "best_day": {
    "date": "2026-09-01",
    "count": 80
   },
-  "active_days": 171,
-  "days_tracked": 371,
+  "active_days": 172,
+  "days_tracked": 365,
   "months": {
    "2025-11": 0,
    "2025-12": 0,
@@ -28,45 +28,10 @@
    "2026-08": 13,
    "2026-09": 127,
    "2026-10": 32,
-   "2026-11": 6
+   "2026-11": 7
   }
  },
  "days": [
-  {
-   "date": "2025-11-02",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-03",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-04",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-05",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-06",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-07",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-11-08",
-   "count": 0,
-   "level": 0
-  },
   {
    "date": "2025-11-09",
    "count": 0,
@@ -1884,6 +1849,11 @@
   },
   {
    "date": "2026-11-07",
+   "count": 1,
+   "level": 1
+  },
+  {
+   "date": "2026-11-08",
    "count": 0,
    "level": 0
   }
